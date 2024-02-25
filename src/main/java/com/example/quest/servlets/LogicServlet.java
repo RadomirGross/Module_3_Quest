@@ -21,6 +21,7 @@ public class LogicServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession currentSession = req.getSession(true);
 
+
         Player player = (Player) currentSession.getAttribute("player");
         if (player.getName() == null) {
             player.setName(req.getParameter("userName"));
