@@ -1,0 +1,19 @@
+[
+  {
+    "currentLevel": "LOST_MEMORY",
+    "questionText": "Ты потерял память",
+    "answers": [
+      {
+        "answerText": "Принять вызов",
+        "nextLevel": "WANT_UP_BRIDGE"
+      },
+      {
+        "answerText": "Отклонить вызов",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Вспомнить котика",
+        "nextLevel": "LOSE_PAGE"
+      }
+    ]
+  }]

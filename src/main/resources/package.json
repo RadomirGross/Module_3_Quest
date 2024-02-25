@@ -1,0 +1,58 @@
+[
+  {
+    "currentLevel": "LOST_MEMORY",
+    "questionText": "Ты потерял память",
+    "answers": [
+      {
+        "answerText": "Принять вызов",
+        "nextLevel": "WANT_UP_BRIDGE"
+      },
+      {
+        "answerText": "Отклонить вызов",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Вспомнить котика",
+        "nextLevel": "LOSE_PAGE"
+      }
+    ]
+  },
+  { "currentLevel": "WANT_UP_BRIDGE",
+    "questionText": "Ты принял вызов поднимаешься на мостик к капитану?",
+    "answers": [
+      {
+        "answerText": "Подняться на мостик",
+        "nextLevel": "ON_BRIDGE"
+      },
+      {
+        "answerText": "Отказаться подниматься на мостик.",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Ничего не делать",
+        "nextLevel": "WANT_UP_BRIDGE"
+      }
+    ]
+  },
+  { "currentLevel": "ON_BRIDGE",
+    "questionText": "Ты поднялся на мостик. Инопланетянин обратил на тебя внимание. Кто ты?",
+    "answers": [
+      {
+        "answerText": "Рассказать правду о себе",
+        "nextLevel": "WIN_PAGE"
+      },
+      {
+        "answerText": "Солгать о себе.",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Вспомнить хороший анекдот про американца, еврея и инопланетянина и рассказать его",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Взять светящийся меч рядом с собой и напасть на инопланетянина",
+        "nextLevel": "EGG_PAGE"
+      }
+    ]
+  }
+]
