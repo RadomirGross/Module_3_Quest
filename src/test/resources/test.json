@@ -1,0 +1,42 @@
+[
+  {
+    "currentLevel": "LOST_MEMORY",
+    "questionText": "Ты потерял память",
+    "answers": [
+      {
+        "answerText": "Принять вызов",
+        "nextLevel": "WANT_UP_BRIDGE"
+      },
+      {
+        "answerText": "Отклонить вызов",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Вспомнить котика",
+        "nextLevel": "LOSE_PAGE"
+      }
+    ]
+  },
+  { "currentLevel": "ON_BRIDGE",
+    "questionText": "Ты поднялся на мостик. Инопланетянин обратил на тебя внимание. Кто ты?",
+    "answers": [
+      {
+        "answerText": "Рассказать правду о себе",
+        "nextLevel": "WIN_PAGE"
+      },
+      {
+        "answerText": "Солгать о себе.",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Вспомнить хороший анекдот про американца, еврея и инопланетянина и рассказать его",
+        "nextLevel": "LOSE_PAGE"
+      },
+      {
+        "answerText": "Взять светящийся меч рядом с собой и напасть на инопланетянина",
+        "nextLevel": "EGG_PAGE"
+      }
+    ]
+  }
+
+]
